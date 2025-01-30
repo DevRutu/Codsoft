@@ -1,0 +1,58 @@
+body{
+  background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/educational-background-with-numerical-numbers_MkWJ83dd_SB_PM.jpg);
+}
+p{
+    text-align: center;
+}
+.highlight{
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    background-color: aliceblue;
+    border: solid black 10px;
+   
+}
+
+.container{
+    width: 99%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: black;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px rgba(200, 200, 50, 0.3);
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    margin: 2px;
+}
+form .Display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+form .Display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    box-shadow: none;
+}
+form input.symbol{
+    color: darkred;
+}
+form input.big_zero{
+    width: 107px;
+}
