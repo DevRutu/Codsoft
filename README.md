@@ -30,76 +30,15 @@ A Python-Django Task Manager Project with REST API
 -   **API:** Django-REST-Framework
 -   **Version Control:** Git, GitHub
 -   **Editor:** VS Code
--   **Operating System:** Ubuntu 23.04 LTS
+-   **Operating System:** Windows
 -   **Browser(Tested On):** Google Chrome, Microsoft Edge, Mozilla Firefox
 
-[⬆️**Go to Table of Contents**](#table-of-contents)
-
-## How to Run Locally
-
-### Clone from GitHub
-
--   Install Python3
--   Install pip
 
 
 
--   Clone the repository
--   
-
--   Go to the project directory
-
-```bash
-cd task-manager
-```
-
--   Create a virtual environment
-
-```bash
-python3 -m venv venv
-```
-
--   Activate the virtual environment
-
-```bash
-source venv/bin/activate
-```
-
--   Install the dependencies
-
-```bash
-pip3 install -r requirements.txt
-```
-
--   Run the server
-
-```bash
-python manage.py runserver
-```
-
--   Open the browser and go to http://127.0.0.1:8000/
-
--   To deactivate the virtual environment
-
-```bash
-deactivate
-```
 
 [⬆️**Go to Table of Contents**](#table-of-contents)
 
-### Setup PostgreSQL Database
-
--   Install PostgreSQL
-
-```bash
-sudo apt install postgresql postgresql-contrib
-```
-
--   Login to PostgreSQL
-
-```bash
-sudo -u postgres psql
-```
 
 -   Create a database
 
@@ -209,5 +148,3 @@ python manage.py createsuperuser
     -   Updates a single task
     -   Partially updates a single task
     -   Deletes a single task
-
-[⬆️**Go to Table of Contents**](#table-of-contents)
