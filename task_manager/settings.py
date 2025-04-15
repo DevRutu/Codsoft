@@ -6,7 +6,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', default="dj-secret")
 
-DEBUG = os.getenv('DEBUG', default=False)
+DEBUG = True
+#os.getenv('DEBUG', default=False)
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default="*").split(',')
 
@@ -70,7 +71,10 @@ WSGI_APPLICATION = 'task_manager.wsgi.application'
 
 # For production
 DATABASES = {
-    'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
+   # 'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
+   'default': dj_database_url.parse(
+        os.getenv('DATABASE_URL', 'sqlite:///db.sqlite3')
+    )
 }
 
 STORAGES = {
