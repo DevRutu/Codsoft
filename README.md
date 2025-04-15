@@ -7,9 +7,6 @@ A Python-Django Task Manager Project with REST API
 <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green">
 <h3>Project's Short Demo</h3>
 
-https://github.com/MusfiqDehan/task-manager/assets/47440165/7219a3f5-e809-4182-8478-ec85f105a210
-
-For more detail overview visit this link: https://youtu.be/4XTaPGTVto0
 
 </div>
 
@@ -18,7 +15,6 @@ For more detail overview visit this link: https://youtu.be/4XTaPGTVto0
 -   [Easy Login Info](#easy-login-info)
 -   [Technology Used](#technology-used)
 -   [Added Features](#added-features)
--   [How to Run Locally](#how-to-run-locally)
     -   [Clone from GitHub](#clone-from-github)
     -   [Setup PostgreSQL Database](#setup-postgresql-database)
     -   [Import Data from db.json](#import-data-from-dbjson)
@@ -46,15 +42,10 @@ For more detail overview visit this link: https://youtu.be/4XTaPGTVto0
 -   Install Python3
 -   Install pip
 
-```bash
-sudo apt install python3-pip
-```
+
 
 -   Clone the repository
-
-```bash
-git clone https://github.com/MusfiqDehan/task-manager.git
-```
+-   
 
 -   Go to the project directory
 
